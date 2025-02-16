@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Delight - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #76650d;
+            color: rgb(30, 170, 198);
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #e4e184;
+        }
+        nav a {
+            color: rgb(40, 18, 103);
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .home {
+            background-image: url('th.jpeg'); 
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(12, 7, 7);
+            text-align: center;
+            font-size: 3em;
+            font-weight: bold;
+        }
+        .menu, .contact {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .menu h2, .contact h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .menu-items {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .menu-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Cafe Delight</h1>
+        <p>Where Great Food Meets Great Company</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="home">
+        <p>Welcome to Cafe Delight</p><br>
+        <p>Enjoy the Best Coffee & Dishes in Town</p>
+    </div>
+
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <h3> <img src="download.jpeg" width 50 height="50"></img>espresso coffee</h3>
+                <p>Strong and bold espresso made from the finest beans.</p>
+                <p><strong>$3.00</strong></p>
+            </div>
+            <div class="menu-item">
+                <img src="download (1).jpeg" width 50 height="50"> latte</img>
+                <h3>Latte</h3>
+                <p>Smooth espresso with steamed milk and a light foam.</p>
+                <p><strong>$4.50</strong></p>
+            </div>
+            <div class="menu-item">
+                <h3><img src="download (2).jpeg" height="50" width="50">chocolate coffee</h3>
+                <p>Rich and moist chocolate cake topped with ganache.</p>
+                <p><strong>$5.00</strong></p>
+            </div>
+            <div class="menu-item">
+                <h3><img src="download (3).jpeg" height="50" width="50">sandwich</h3>
+                <p>Grilled sandwich with fresh vegetables and cheese.</p>
+                <p><strong>$6.00</strong></p>
+            </div>
+            <div class="menu-item">
+                <h3><img src="download (4).jpeg" height="50" width="50">salad</h3>
+                
+                
+                <p>Fresh seasonal greens with vinaigrette dressing.</p>
+                <p><strong>$7.00</strong></p>
+            </div>
+            <div class="menu-item">
+                <h3><img src="download (5).jpeg" height="50" width="50"></h3>
+                <p>Thin crust pizza topped with mozzarella and pepperoni.</p>
+                <p><strong>$8.00</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Visit us at:</p>
+        <p>123 Delight St, Cityville</p>
+        <p>Email: contact@cafedelight.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </section>
+<body>
+    
+    <p><h1 align="center">reservation form</h1></p>
+    <form method="get" style="text-align: center;">
+        <label for="name">enter your name</label><br>
+        <input type="text" id="name"name="name"required><br>
+        <label for="number">enter your number</label><br>
+        <input type="number" id="phone number"name="phone number"required><br>
+        <label for="date">date</label><br>
+        <input type="date" id="date"name="date"required><br>
+        <label for="time">time</label><br>
+        <input type="time" id="time"name="time"required><br>
+       <button type="submit">reservenow</button><br>
+<br>
+<br>
+
+
+
+    </form>
+</body>
+    <footer>
+        <p>&copy; 2025 Cafe Delight | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
